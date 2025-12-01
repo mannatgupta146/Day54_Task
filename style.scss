@@ -15,6 +15,15 @@ html, body {
     inherits: false;
 }
 
+@keyframes moveAnimation {
+    from{
+        --rotate: 0deg;
+    }
+    to{
+        --rotate: 360deg;
+    }
+}
+
 main {
     width: 100%;
     height: 100%;
@@ -33,8 +42,10 @@ main {
         flex-direction: column;
         gap: 5px;
         background: linear-gradient(black) padding-box, conic-gradient(from var(--rotate), black , #f5cd02, black) border-box;
-        border: 5px solid transparent;
+        border: 7px solid transparent;
         border-radius: 15px;
+        animation: moveAnimation 2s linear infinite;
+        box-shadow: 0 0 50px #FFFE8E;
 
         img{
             width: 100%;

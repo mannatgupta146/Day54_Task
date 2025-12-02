@@ -44,6 +44,10 @@ main #card {
   border-radius: 15px;
   animation: moveAnimation 2s linear infinite;
   box-shadow: 0 0 50px #FFFE8E;
+  animation-play-state: paused;
+}
+main #card:hover {
+  animation-play-state: running;
 }
 main #card img {
   width: 100%;

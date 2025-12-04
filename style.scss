@@ -44,7 +44,7 @@ main {
         border: 0px solid transparent;
         border-radius: 15px;
         animation: moveAnimation 2s linear infinite;
-        box-shadow: 0 0 0px #FFFE8E;
+        box-shadow: 0 0 0px #888647;
         text-shadow: 0 0 0px #FFFE8E; 
         animation-play-state: paused;
         transition: all 0.2s linear;
@@ -53,7 +53,7 @@ main {
         &:hover{
             animation-play-state: running;
             border-width: 7px;
-            color :#FFFE8E;
+            color :#f3f188;
             box-shadow: 0 0 50px #888647;
             text-shadow: 0 0 10px #FFFE8E; 
         }

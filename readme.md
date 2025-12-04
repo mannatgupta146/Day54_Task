@@ -1,34 +1,33 @@
 # Day 54 Task | Cohort 2.0
 
-This project is my **Day 53 Task**, where I created a smooth **Matrix-style Text Scramble Hover Effect** using **HTML, SCSS, and JavaScript**.  
-When the user hovers over the text, each character scrambles into random symbols and then resolves back into the original text, creating a clean hacker-style animation.
+This project is my **Day 54 Task**, where I created a glowing **Rotating Conic-Gradient Border Card UI** using **HTML, SCSS, and JavaScript**.  
+When the user hovers over the card, the border begins to rotate smoothly, creating an electric, dynamic effect that highlights the Pikachu card.
 
 ## 🎥 Demo
 Below is a quick preview of how the animation looks:
 
-![Demo GIF](./demo.gif)
+![Demo GIF](./assets/demo.gif)
 
 
-## 📌 About the Day 53 Task
-Day 53 focused on building an interactive **text scrambling and decoding effect**. I learned how to:
+## 📌 About the Day 54 Task
+Day 54 focused on understanding **CSS @property**, **conic gradients**, and **animated borders**. I learned how to:
 
-- Generate random characters for the scramble effect  
-- Replace text letter-by-letter with JavaScript  
-- Control animation smoothness using intervals  
-- Apply neon green matrix color styling  
-- Trigger animation on mouseenter events  
-- Use SCSS nesting for organized styling  
+- Use `@property` to animate CSS custom variables  
+- Create a rotating border using **conic-gradient**  
+- Control animation playback using `animation-play-state`  
+- Design an attractive glowing card UI  
+- Use SCSS nesting for neat and organized styling  
+- Apply smooth hover-triggered animations  
 
 ## ✨ Task Features
 
 | Feature | Description |
 |--------|-------------|
-| 🟩 **Matrix Scramble Effect** | Characters scramble and decode smoothly. |
-| 🖱️ **Hover Trigger** | Animation starts cleanly on mouse hover. |
-| 🔡 **Randomized Characters** | Uses letters, numbers and symbols for the effect. |
-| 🎨 **Neon Green Styling** | Hacker-style glowing green text. |
-| ⚡ **Smooth Animation** | Controlled iteration and interval timing. |
-| 📐 **SCSS Nesting** | Clean, readable styling structure. |
+| ⚡ **Rotating Conic Border** | Border rotates 360° smoothly when hovered. |
+| 🎨 **Electric Glow Effect** | Soft yellow glow enhances the Pikachu theme. |
+| 🖱️ **Hover Animation Trigger** | Animation runs only on hover for a clean UI. |
+| 💛 **Pikachu-Themed Colors** | Bright yellow tones for a Pokémon-inspired look. |
+| 🧩 **SCSS Nesting** | Clean, readable, modular styling. |
 
 ## 🛠️ Technologies Used
 
@@ -41,13 +40,15 @@ Day 53 focused on building an interactive **text scrambling and decoding effect*
 
 By completing this task, I learned:
 
-- How to create text-based animations  
-- How to update text dynamically with JavaScript  
-- How interval timing affects UI smoothness  
-- How to use SCSS nesting for better structure  
-- How to design hacker-themed UI effects  
+- How to animate custom CSS variables with `@property`  
+- How conic gradients work and how to rotate them  
+- How to pause and resume animations on hover  
+- How SCSS nesting improves styling readability  
+- How to build aesthetic UI components with glow effects  
 
 ## 🌟 Acknowledgement
 
-This **Day 53 task** helped me explore how interactive text effects are built and how small animations can enhance user experience.  
-Thank you to **Cohort 2.0** for providing creative and engaging projects.
+This **Day 54 task** helped me understand advanced CSS animation properties and how gradients can be transformed into creative UI borders.  
+Thank you to **Cohort 2.0** for inspiring hands-on and innovative design challenges.
+
+---
